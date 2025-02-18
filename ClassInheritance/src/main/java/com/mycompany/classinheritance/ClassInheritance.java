@@ -12,19 +12,7 @@ import java.util.*;
 public class ClassInheritance {
 
     public static void main(String[] args){
-            //Commented below is code for Vehicle and Car
-            /*//create a base Vehicle object 9in this case a Boat
-            Vehicle v = new Vehicle("Boat", 30.0, 2000, 100000.00);
-            //print out the object (toString)
-            System.out.println(v);
-            
-            //now create a child object (a Car)
-            Car myCar = new Car("BMW", 200.00, 2, 100.00, 30.0);
-            //couple of variables to alter, to change the output a little
-            //myCar.setSpoiler(true);
-            //myCar.setStereo(true);
-            System.out.println(myCar);*/
-            
+        
             //child object that inherits Car
             ElectricCar ec = new ElectricCar("Tesla Model 3", 120.0, 5, 500.0, 25.0, 75.0, 350);
             //Printing the electric car details
@@ -32,12 +20,12 @@ public class ClassInheritance {
             
             //child object that inherits Car
              LuxuryCar lc = new LuxuryCar("Mercedes-Benz S-Class", 150.0, 5, 500.0, 22.0, true, true, true, "Leather");
-            // Print the LuxuryCar details
+            // Printing the LuxuryCar details
             System.out.println(lc);
             
             //child object that inherits Vehicle (boat)
             SpeedBoat sb = new SpeedBoat("Sunseeker", 55.0, 6, 1500.0, "Motorboat", 500.0);
-            // Print the SpeedBoat details
+            // Printing the SpeedBoat details
             System.out.println(sb);
             
             //child object that inherits Vehicle (boat)
@@ -45,27 +33,27 @@ public class ClassInheritance {
                                                      "Motorboat", 
                                                      "Pool, Jacuzzi, Cinema Room, Bar, Sauna", 
                                                      15, true);
-            // Print the LuxuryYacht details
+            // Printing the LuxuryYacht details
             System.out.println(ly);
             
             //child object that inherits Vehicle (airplane)
             CommercialAirliner ca = new CommercialAirliner("Airbus A380", 575.0, 850, 80000.0, 4, 500, 70000.0);
-            // Print the second CommercialAirliner details
+            // Printing the second CommercialAirliner details
             System.out.println(ca);
             
             //child object that inherits Vehicle (airplane)
             PrivateJet pj = new PrivateJet("Gulfstream G650", 600.0, 12, 20000.0, 2, true, "Leather");
-            // Print the PrivateJet details
+            // Printing the PrivateJet details
             System.out.println(pj);
             
-            //child object that inherits Vehicle (train)
+            //child object that inherits Vehicle (electricscooter)
             ElectricScooter es = new ElectricScooter("Xiaomi Mi Electric Scooter", 20.0, 1, 20.0, 0.5, 30);
-            // Print the ElectricScooter details
+            // Printing the ElectricScooter details
             System.out.println(es);
             
             //child object that inherits Vehicle (motorcycle)
             Motorcycle mc = new Motorcycle("Harley Davidson", 120.0, 2, 300.0, false);
-            // Print the Motorcycle details
+            // Printing the Motorcycle details
             System.out.println(mc);
     }
 }
